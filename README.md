@@ -2,7 +2,7 @@
 An example for mVision Camera connect to LEGO SPIKE Hub.
 
 ## How it works
-A MicroPython library allow mVision (OpenMV) emulate LEGO UART Protocol, and we wrote a sample program to let mVision detect objects by color and mark them with IDs on the screen (IDE view) and send the information to SPIKE Hub.
+A MicroPython library from ceeoinnovations allow mVision (OpenMV) emulate LEGO UART Protocol, and we wrote a sample program to let mVision detect objects by color and mark them with IDs on the screen (IDE view) and send the information to SPIKE Hub.
 
 ## Hardware
 You can use SPIKE Ultrasonic sensor breakout board, or cut a wire to connect to SPIKE Hub, and connnect the wire as:
@@ -26,6 +26,11 @@ Pybricks:
 Camera = PUPDevice(Port.F)
 CamData = Camera.read(0) # CamData will got the DataToSend content from camera.
 ```
+
+## Reference
+ - [PyBricks - LEGO Powered Up UART Protocol](https://github.com/pybricks/technical-info/blob/master/uart-protocol.md)
+ - [ceeoinnovations/SPIKEPrimeBackpacks](https://github.com/ceeoinnovations/SPIKEPrimeBackpacks)
+ - [EV3 Hardware Developer Kit](https://education.lego.com/en-us/support/mindstorms-ev3/developer-kits)
 
 ## Disclaimer
 LEGO® is a trademark of the LEGO Group of companies which does not sponsor, authorize or endorse this software.
