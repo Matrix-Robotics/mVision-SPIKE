@@ -27,6 +27,12 @@ Camera = PUPDevice(Port.F)
 CamData = Camera.read(0) # CamData will got the DataToSend content from camera.
 ```
 
+SPIKE App 3:
+```
+import device
+CamData = device.data(port.F) # CamData will got the DataToSend content from camera.
+```
+
 ## Reference
  - [PyBricks - LEGO Powered Up UART Protocol](https://github.com/pybricks/technical-info/blob/master/uart-protocol.md)
  - [ceeoinnovations/SPIKEPrimeBackpacks](https://github.com/ceeoinnovations/SPIKEPrimeBackpacks)
